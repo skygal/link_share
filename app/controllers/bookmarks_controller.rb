@@ -41,7 +41,7 @@ class BookmarksController < ApplicationController
   # POST /bookmarks.xml
   def create
     @bookmark = Bookmark.new(params[:bookmark])
-
+    @bookmark.date_saved = DateTime.now
     respond_to do |format|
       if @bookmark.save
         format.html { redirect_to(@bookmark, :notice => 'Bookmark was successfully created.') }

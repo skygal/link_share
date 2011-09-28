@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110928004717) do
+ActiveRecord::Schema.define(:version => 20110928064753) do
 
   create_table "bookmarks", :force => true do |t|
     t.string   "URL"
     t.string   "Name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.date     "date_saved"
   end
 
 end
