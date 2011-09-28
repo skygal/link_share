@@ -1,4 +1,10 @@
 LinkShare::Application.routes.draw do
+  get "bookmarks/URL"
+
+  get "bookmarks/Name"
+
+  get "bookmarks/Date_Saved"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
