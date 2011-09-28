@@ -1,4 +1,6 @@
 LinkShare::Application.routes.draw do
+  resources :bookmarks
+
   get "bookmarks/URL"
 
   get "bookmarks/Name"
