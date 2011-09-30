@@ -87,6 +87,7 @@ GEM
     turn (0.8.2)
       ansi (>= 1.2.2)
     tzinfo (0.3.29)
+    web-app-theme (0.7.0)
     webrat (0.7.1)
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
@@ -102,4 +103,5 @@ DEPENDENCIES
   rspec-rails (= 2.6.1)
   sqlite3 (= 1.3.3)
   turn
+  web-app-theme (>= 0.6.2)
   webrat (= 0.7.1)
