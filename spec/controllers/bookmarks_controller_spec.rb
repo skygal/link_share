@@ -24,7 +24,11 @@ describe BookmarksController do
   # Bookmark. As you add validations to Bookmark, be sure to
   # update the return value of this method accordingly.
   def valid_attributes
-    {}
+     {
+       :Name => "woot",
+       :URL => "www.woot.com",
+       :date_saved => '2011-10-03'
+     } 
   end
 
   describe "GET index" do
